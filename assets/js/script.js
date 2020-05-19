@@ -11,5 +11,21 @@ function writePassword() {
 
 }
 
+// Created a prompt asking user how many characters they want to use.
+var userGuess = prompt("How may characters do you want to use? Select between 8 and 128 characters.");
+  
+if (userGuess < 8) {
+    alert("try again...");
+}
+  else (userGuess > 8);
+    alert("next question")
+  
+
+
+
+
+
+
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
