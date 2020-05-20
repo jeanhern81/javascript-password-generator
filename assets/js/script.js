@@ -1,17 +1,7 @@
 //Password generator that will provide a pasword using anywhere between 8-150 characters. 
 
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
-
-// Write password to the #password input
-function writePassword() {
-  // you can create a function named generatePassword that creates the password
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
-}
+// Assigned Code and add event listener to generate button
+document.querySelector("#generate").addEventListener("click", writePassword);
 
 // Arrays
   var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -20,17 +10,31 @@ function writePassword() {
   var specialCharacter = ["!", "@", "#", "$", "%", "^", "&", "*", "+", "/", "-", "~", "."];
 
 //Variable Declarations
-var confirmLength;
+var confirmLength = "";
 var confirmNumber;
 var confirmLowerCase;
 var confirmUpperCase;
 var confirmSpecialCharacter;
 
 //1st prompt to confirm how long they want their password to be (8-128 characters).
-function writePassword() {
-  var confirmLength = prompt("Select the number of characters you want your password to be. Must be between 8 - 128 characters long.")
+
+  var confirmLength = prompt ("Select the number of characters you want your password to be. Must be between 8 - 128 characters long.");
+
+//Verify that the answer fits within the parameters.
+if(confirmLength <= 7 || confirmLength >= 128) {
+  alert ("Please choose between 8 - 128");  
+}
 
 
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+
+
+
+  function writePassword() {
+  // you can create a function named generatePassword that creates the password
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+
+}
