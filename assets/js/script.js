@@ -27,7 +27,8 @@ if(confirmLength <= 7 || confirmLength >= 129) {
   var confirmLength = prompt ("Select the number of characters you want your password to be. Must be between 8 - 128 characters long."); 
 }
 
-
+//Reiterate to the user how many characters they've selected
+alert(`Your password will have ${confirmLength} characters`);
 
 
 
