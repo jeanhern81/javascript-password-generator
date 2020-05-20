@@ -11,18 +11,8 @@ function writePassword() {
 
 }
 
-
-// Created a prompt asking user how many characters they want to use.
-var userGuess = prompt("How may characters do you want to use? Select between 8 and 128.");
-  //alerts if they choose under 7
-if (8 < userGuess < 128) {
-    alert("try again...");
-}
-
-else (userGuess ) { 
-    alert("next question");
-}  
-
+// Arrays
+ var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 
 
