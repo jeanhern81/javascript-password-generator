@@ -1,10 +1,12 @@
-## JavaScript: Password Generator
-
 ---
 
 Title: Password Generator
+
 Created by: Jeanette Hernandez
+
 Date: May 20, 2020
+
+Website: https://jeanhern81.github.io/javascript-password-generator/
 
 ---
 
