@@ -32,6 +32,13 @@ alert (`Your password will have ${confirmLength} characters`);
 
 //These are the set parameters that must be followed in order to create a password.
 var confirmNumber = confirm ("Click OK to confirm that you would like to use a number value");
+var confirmLowerCase = confirm ("Click OK to confirm that you would like to use lowercase letters");
+var confirmUpperCase = confirm("Click OK to confirm that you would like to use uppercase letters");
+var confirmSpecialCharacter = confirm ("Click OK to confirm that you would like to use a special character")
+
+//If any answers are outside the allowed parameters, quick back these responses
+
+
 
 
 
