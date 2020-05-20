@@ -21,9 +21,12 @@ var confirmSpecialCharacter;
   var confirmLength = prompt ("Select the number of characters you want your password to be. Must be between 8 - 128 characters long.");
 
 //Verify that the answer fits within the parameters.
-if(confirmLength <= 7 || confirmLength >= 128) {
+if(confirmLength <= 7 || confirmLength >= 129) {
   alert ("Please choose between 8 - 128");  
+  //asking again to confirm how long their password should be.
+  var confirmLength = prompt ("Select the number of characters you want your password to be. Must be between 8 - 128 characters long."); 
 }
+
 
 
 
