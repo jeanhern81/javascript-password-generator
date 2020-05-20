@@ -30,6 +30,8 @@ if(confirmLength <= 7 || confirmLength >= 129) {
 //Reiterate to the user how many characters they've selected
 alert (`Your password will have ${confirmLength} characters`);
 
+//These are the set parameters that must be followed in order to create a password.
+var confirmNumber = confirm ("Click OK to confirm that you would like to use a number value");
 
 
 
