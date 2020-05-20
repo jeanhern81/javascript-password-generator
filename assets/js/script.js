@@ -28,7 +28,7 @@ if(confirmLength <= 7 || confirmLength >= 129) {
 }
 
 //Reiterate to the user how many characters they've selected
-alert(`Your password will have ${confirmLength} characters`);
+alert (`Your password will have ${confirmLength} characters`);
 
 
 
