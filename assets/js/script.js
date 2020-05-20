@@ -19,13 +19,16 @@ function writePassword() {
   var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
   var specialCharacter = ["!", "@", "#", "$", "%", "^", "&", "*", "+", "/", "-", "~", "."];
 
-//Variable Declartions
+//Variable Declarations
 var confirmLength;
 var confirmNumber;
 var confirmLowerCase;
 var confirmUpperCase;
 var confirmSpecialCharacter;
 
+//1st prompt to confirm how long they want their password to be (8-128 characters).
+function writePassword() {
+  var confirmLength = prompt("Select the number of characters you want your password to be. Must be between 8 - 128 characters long.")
 
 
 
