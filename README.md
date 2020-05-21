@@ -4,13 +4,13 @@ Title: Password Generator
 
 Created by: Jeanette Hernandez
 
-Date: May 20, 2020
+Date: May 22, 2020
 
 Website: https://jeanhern81.github.io/javascript-password-generator/
 
 ---
 
-![Screenshot](assets/images/screenshot.jpg)
+![Screenshot](/assets/images/screenshot.jpg)
 
 ---
 
