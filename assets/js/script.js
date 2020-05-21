@@ -17,7 +17,7 @@ var confirmUpperCase;
 var confirmSpecialCharacter;
 
 //1st prompt to confirm how long they want their password to be (8-128 characters).
-
+function generatePassword() {
   var confirmLength = prompt ("Select the number of characters you want your password to be. Must be between 8 - 128 characters long.");
 
 //Verify that the answer fits within the parameters.
@@ -67,13 +67,23 @@ if (confirmUpperCase) {
 //console log check to see if all options work.
 console.log(includedCharacters)
 
+//The loop to generate each character of the password.
+var password = ""
+
+for (var i = 0; i < confirmLength; i++) {
+  password = password + includedCharacters[Math.floor(Math.random() * includedCharacters.length)];
+    console.log(password)
+  }
+  return password; 
+
+  }
 
 
 
 
-
-  function writePassword() {
+  
   // you can create a function named generatePassword that creates the password
+  function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 

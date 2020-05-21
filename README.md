@@ -9,13 +9,22 @@ Date: May 20, 2020
 Website: https://jeanhern81.github.io/javascript-password-generator/
 
 ---
+![Screenshot of Password Generator](assets/image/password-generator-screenshot.jpg "Password Generator")
+--
 
 README document for a password generator.
 
 How it works:
 
-- Select a number between 8 - 128 to begin.
-- Click Ok or Cancel to answer a series of questions to that will help determine what your password will be.
+- Click generate password.
+- Select password length from 8 - 128.
+- Confirm Length.
+- Confirm or Cancel the use the use of numberic digits.
+- Confirm or Cancel the use of lowercase letter.
+- Confirm or Cancel the use of uppercase letter.
+- Confirm or Cancel the use of special characters.
+
+A password is then generated.
 
 ---
 
