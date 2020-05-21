@@ -10,7 +10,7 @@ Website: https://jeanhern81.github.io/javascript-password-generator/
 
 ---
 
-![Screenshot of Password Generator](assets/images/screenshot.jpg)
+![Password Generator](assets/images/screenshot.jpg)
 
 ---
 
