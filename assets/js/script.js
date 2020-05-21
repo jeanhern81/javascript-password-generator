@@ -45,7 +45,27 @@ while(confirmLowerCase === false && confirmUpperCase === false && confirmSpecial
   var confirmSpecialCharacter = confirm ("Click OK to confirm that you would like to use a special character")
 }
 
+//These is code that evaluates what characters will be included in the password.
+var includedCharacters = []
 
+if (confirmNumber) {
+  includedCharacters = includedCharacters.concat(number)
+}
+
+if (confirmLowerCase) {
+  includedCharacters = includedCharacters.concat(lowerCase)
+}
+
+if (confirmUpperCase) {
+  includedCharacters = includedCharacters.concat(upperCase)
+}
+
+if (confirmUpperCase) {
+  includedCharacters = includedCharacters.concat(specialCharacter)
+}
+
+
+console.log(includedCharacters)
 
 
 
