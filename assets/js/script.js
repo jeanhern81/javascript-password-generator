@@ -37,7 +37,9 @@ var confirmUpperCase = confirm("Click OK to confirm that you would like to use u
 var confirmSpecialCharacter = confirm ("Click OK to confirm that you would like to use a special character")
 
 //If any answers are outside the allowed parameters, quick back these responses
-
+if (confirmLowerCase === false &&& confirmUpperCase === false &&& confirmSpecialCharacter && confirmNumber) {
+  alert ("You must select a least one option");
+}
 
 
 
