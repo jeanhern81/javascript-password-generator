@@ -36,9 +36,13 @@ var confirmLowerCase = confirm ("Click OK to confirm that you would like to use 
 var confirmUpperCase = confirm("Click OK to confirm that you would like to use uppercase letters");
 var confirmSpecialCharacter = confirm ("Click OK to confirm that you would like to use a special character")
 
-//If any answers are outside the allowed parameters, quick back these responses
-if (confirmLowerCase === false &&& confirmUpperCase === false &&& confirmSpecialCharacter === false && confirmNumber === false) {
+//If all the answers are outside the allowed parameters, quick back these responses
+while(confirmLowerCase === false && confirmUpperCase === false && confirmSpecialCharacter === false && confirmNumber === false) {
   alert ("You must select a least one option");
+  var confirmNumber = confirm ("Click OK to confirm that you would like to use a number value");
+  var confirmLowerCase = confirm ("Click OK to confirm that you would like to use lowercase letters");
+  var confirmUpperCase = confirm("Click OK to confirm that you would like to use uppercase letters");
+  var confirmSpecialCharacter = confirm ("Click OK to confirm that you would like to use a special character")
 }
 
 
