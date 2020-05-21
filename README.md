@@ -13,8 +13,6 @@ Website: https://jeanhern81.github.io/javascript-password-generator/
 ![Screenshot](/assets/images/screenshot.jpg)
 
 ---
-
-
 README document for a password generator.
 
 How it works:
