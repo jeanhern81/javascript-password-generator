@@ -10,9 +10,9 @@ Website: https://jeanhern81.github.io/javascript-password-generator/
 
 ---
 
-![Screenshot](assets/images/screenshot.jpg)
----
+![Screenshot](./assets/images/screenshot.JPG)
 
+---
 README document for a password generator.
 
 How it works:
