@@ -9,8 +9,11 @@ Date: May 20, 2020
 Website: https://jeanhern81.github.io/javascript-password-generator/
 
 ---
-![Screenshot of Password Generator](assets/image/password-generator-screenshot.jpg)
---
+
+![Screenshot of Password Generator](assets/images/screenshot.jpg "Password Generator")
+
+---
+
 
 README document for a password generator.
 
