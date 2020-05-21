@@ -64,8 +64,11 @@ if (confirmUpperCase) {
   includedCharacters = includedCharacters.concat(specialCharacter)
 }
 
-
+//console log check to see if all options work.
 console.log(includedCharacters)
+
+
+
 
 
 
