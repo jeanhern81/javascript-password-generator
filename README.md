@@ -10,7 +10,7 @@ Website: https://jeanhern81.github.io/javascript-password-generator/
 
 ---
 
-README document for this password generator.
+README document for a password generator.
 
 How it works:
 
