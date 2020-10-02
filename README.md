@@ -1,19 +1,4 @@
----
-
-Title: Password Generator
-
-Created by: Jeanette Hernandez
-
-Date: May 22, 2020
-
-Website: https://jeanhern81.github.io/javascript-password-generator/
-
----
-
-![Screenshot](./assets/images/screenshot.JPG)
-
----
-README document for a password generator.
+# Password Generator
 
 How it works:
 
@@ -29,7 +14,18 @@ A password is then generated.
 
 ---
 
-Technologies Used:
-HTML, CSS, JavaScript
+## Demo:
+
+
+Website: https://jeanhern81.github.io/javascript-password-generator/
+
+
+![Screenshot](./assets/images/screenshot.JPG)
+
 
 ---
+
+## Technologies Used:
+HTML, CSS, JavaScript
+
+
